@@ -2,8 +2,8 @@
 .text
 .globl main
 main:
-	li $a0, 10 # n
-	li $a1, 5 # r
+	li $a0, 100 # n
+	li $a1, 10 # r
 	jal combination # nCr
 	
 	move $a0, $v0
