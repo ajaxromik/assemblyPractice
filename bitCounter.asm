@@ -2,7 +2,7 @@
 .text
 main:
 	li $a0, 255
-	jal countBits
+	jal countBits	# counts the amount of bits that are equal to 1
 	
 	move $a0, $v0
 	li $v0, 1
